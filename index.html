@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caats - Livraison de croquette</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <h1>MY PET</h1>
+            <img src="img/cat.png" alt="photo de chat">
+            <p>Vous souhaitez :</p>
+            <ul>
+                <li><a href="">Changer la photo de profil</a></li>
+                <li><a href="">Modifier la date d'expédition</a></li>
+                <li><a href="">Modifier son menu</a></li>
+                <li><a href="">Modifier son profil</a></li>
+                <li><a href="">Suspendre les livraisons</a></li>
+                <li><a href="">Contacter le service client</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h2>Prochaine expédition</h2>
+                <div class="contenu">
+                    <div>
+                        <img src="img/box.png" alt="colis">
+                    </div>
+                    <div class="text">
+                        <h3>2 mois d'alimentation pour FNAME</h3>
+                        <p>- 7,2kg de croquettes</p>
+                        <p>- 40 pochons d'effilochés</p>
+                        <h3>Pris total pour 2 mois : 82,40 (1,37€ : jour)</h3>
+                        <p class="text-small">Date de facturation et préparation : 15/11/2021</p>
+                        <p class="text-small">Livraison estimée 16/11/2021 ++ 19/11/2021 </p>
+                        <a href="#">Modifier la date d'expédition</a>
+                    </div>
+                </div>
+
+            </article>
+
+            <article>
+                <h2>Le menu de FNAME</h2>
+                <div class="contenu">
+                    <div>
+                        <img src="img/food.png" alt="colis">
+                    </div>
+                    <div class="text">
+                        <p>Croquettes (poulets et petits légumes)... <strong>35g/jour</strong></h3>
+                        <p>Effilochés (plusieurs saveurs)... <strong>1 pochon/jour</strong></p>
+                        <p>Prix total par jour... <strong>1,37/jour</strong></p>
+                        <h3>Fréquence de livraison tous les 2 mois</h3>
+                        <a>Modifier le menu</a>
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <h2>Le profil {FNAME}</h2>
+                <form action="mapage.php" method="post">
+
+                    <div class="form-gauche">
+
+                            <div>
+                                <label for="name">Nom</label>
+                                <input type="radio" id="name" name="groupe">
+                            </div>
+                            <div>
+                                <label for="sexe">Sexe</label>
+                                <input type="radio" id="sexe" name="groupe">
+                            </div>
+                            <div>
+                                <label for="steril">Stérilisation</label>
+                                <input type="radio" id="steril">
+                            </div>
+                            <div>
+                                <label for="activity">Activité</label>
+                                <input type="radio" id="activity">
+                            </div>
+                            <div>
+                                <label for="allergie">Allergies</label>
+                                <input type="text" id="allergie">
+                            </div>
+                            <div>
+                                <label for="health">Sante</label>
+                                <input type="text" id="health">
+                            </div>
+
+
+                    </div>
+
+                    <div class="form-droit">
+
+                            <div>
+                                <label for="date_de_naissance">Date de naissance</label>
+                                <input type="date" id="date_de_naissance">
+                            </div>
+                            <div>
+                                <label for="email">email</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div>
+                                <label for="poids">Poids</label>
+                                <input type="text" id="poids">
+                            </div>
+                            <div>
+                                <label for="food">Préférences alimentaire</label>
+                                <textarea id="food" rows="5"></textarea>
+                            </div>
+                            <input type="submit">
+                    </div>
+                    
+                </form>
+                <a href="">Modifier son profil</a>
+            </article>
+
+        </section>
+    </div>
+-->
+</body>
+
+</html>
